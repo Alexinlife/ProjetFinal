@@ -1,0 +1,64 @@
+html, body{
+    height: 100%;
+}
+
+.section{
+    height: 360px;
+}
+
+.banniere {
+    background-image: url("../img/banniere.jpg");
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blanc{
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.orange{
+    background-color: #ffa500;
+}
+
+.orange2{
+    background-color: #e59400;
+}
+
+.orange3{
+    background-color: #cc8400;
+}
+
+.orange4{
+    background-color: #b27300;
+}
+
+.orange5{
+    background-color: #666666;
+}
+
+.pad-top{
+    padding-top: 20px;
+}
+
+.bouton2{
+    display: none;
+}
+
+@media only screen and (max-width: 992px){
+    .blanc{
+        background: rgba(128, 128, 128, 0.7);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .blanc{
+        background: rgba(0, 0, 0, 0.5);
+    }
+    .texte{
+        color: white;
+    }
+}
